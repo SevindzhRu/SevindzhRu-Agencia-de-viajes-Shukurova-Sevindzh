@@ -1,0 +1,56 @@
+.foto__nosotros{
+    width:50%;
+    height: auto;
+    padding: 50px;
+    margin: auto 50px;
+}
+
+figure{
+    padding: 10px;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+figure img{
+    min-height: 300px;
+    max-height: 300px;
+    min-width: 100%;
+    border: solid rgb(86, 138, 94) 5px;
+}
+
+.foto__brooklyn{
+    width: 50%;
+    height: 300px; 
+    position: relative;
+    padding: 20px 25px;
+}
+
+.foto__coliceo{
+    width: 50%;
+    height: 300px; 
+    position: relative;
+    padding: 20px 25px;
+}
+
+.foto__contacto{
+    width: 400px;
+    height: 100px;
+    margin-left: 170px;
+}
+
+.foto__barcelona{
+    width: 50%;
+    height: 300px; 
+    position: relative;
+    padding: 20px 25px;
+}
+
+.galeria-img{
+    width: 75%;
+}
+
+.row img{
+    height: 200px;
+}

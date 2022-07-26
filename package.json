@@ -1,0 +1,24 @@
+{
+  "name": "root.-desafio-bootstrap",
+  "version": "1.0.0",
+  "description": "Fran espero este ok mi desafio. Me ha costado!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SevindzhRu/evindzhRu-Agencia-de-viajes-Shukurova-Sevindzh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SevindzhRu/evindzhRu-Agencia-de-viajes-Shukurova-Sevindzh/issues"
+  },
+  "homepage": "https://github.com/SevindzhRu/evindzhRu-Agencia-de-viajes-Shukurova-Sevindzh#readme",
+  "dependencies": {
+    "sass": "^1.54.0"
+  }
+}

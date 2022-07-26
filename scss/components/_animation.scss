@@ -1,0 +1,31 @@
+@keyframes headerAnimate{
+    0%{background-image: url(../images/headers/russia.jpg);}
+    25%{background-image: url(../images/headers/sunrise.jpg);}
+    50%{background-image: url(../images/headers/cancun.jpg);}
+    75%{background-image: url(../images/headers/london.jpg);}
+    100%{background-image: url(../images/headers/nyc2.jpg);}
+}
+
+div.portada{
+    height: 30vh;
+    background-size: cover;
+    animation-name: headerAnimate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin: 40px 50px;
+    cursor: pointer;
+}
+
+
+.paquetes img:hover{
+    transform: scale(1.3);
+    transition: 2s;
+    cursor: pointer;
+}
+
+.header-nav img:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+    cursor: pointer;
+}
+

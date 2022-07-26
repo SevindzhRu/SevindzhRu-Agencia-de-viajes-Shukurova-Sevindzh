@@ -1,0 +1,15 @@
+.pie{
+    background-color: rgba(102, 194, 193, 0.8);
+    text-align: center;
+    padding: 20px 30px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie__img{
+    margin: 20px;
+    width: 5%;
+}

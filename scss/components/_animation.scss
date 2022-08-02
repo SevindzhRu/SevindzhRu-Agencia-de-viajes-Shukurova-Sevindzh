@@ -7,12 +7,12 @@
 }
 
 div.portada{
-    height: 30vh;
+    height: 70vh;
     background-size: cover;
     animation-name: headerAnimate;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    margin: 40px 50px;
+    margin: 100px 50px;
     cursor: pointer;
 }
 
@@ -28,4 +28,8 @@ div.portada{
     transition: 2s;
     cursor: pointer;
 }
+
+
+
+
 

@@ -49,3 +49,20 @@ figcaption{
     padding: auto;
     margin: 10px auto;
 }
+
+.pie-1{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(102, 194, 193, 0.8);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.pie-1 a img{
+    width: 2em;
+    margin: 10px;
+}

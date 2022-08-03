@@ -1,0 +1,36 @@
+1.	En el archivo Index. Html sume SEO con siguientes caracteristicas
+Descripcion La agencia Nacho Travel es experta en el diseño de viajes exclusivos y a medida, desde hace más de 20 años. Viajes de novios, familias, viajes de empresa y viajes de autor.
+Keywords viajes a medida,viajes exclusivos,viajes de lujo,viajes de novios,viajes en familia,viajes de empresa.
+
+2.	En el archivo Nosotros.html sume SEO con siguientes caracteristicas
+Descripcion en este seccion se puede leer la infornacion de nuestra empresa tal como mision, vicion y fundacion de la empresa.
+Keywords agencia de viajes, informacion, mision, vision, fundacion.
+
+3.	En el archivo Paquetes.html sume SEO con siguientes caracteristicas
+Descripcion en este seccion les ofrecemos nuestros mejores productos hechos a medida con mucho cariño y muchisima experiencia.
+Keywords agencia de viajes, paquetes, producto, circuito, itinerario, tours.
+
+4.	En el archivo Feedbacks.html sume SEO con siguientes caracteristicas
+Descripcion en este seccion se puede leer los feedbacks de nuestros clientes y dejar los suyos.
+Keywords agencia de viajes, feedbacks, experiencia, opiniones, valoraciones.
+
+5.	En el archivo Contacto.html sume SEO con siguientes caracteristicas
+Descripcion en este seccion nos puede dejar sus datos o cpntactarnos directamente, tambien encontarara aca el mapa con la direccion.
+Keywords agencia de viajes, telefono, contacto, correo, direccion.
+
+Tambien hice:
+extend de una clase de texto
+2 mixin
+mapa de colores
+
+Verifique los encabezados
+
+
+
+
+
+
+
+
+
+

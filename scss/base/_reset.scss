@@ -1,3 +1,7 @@
+
+@import "../utilities/variables";
+
+
 *{
     font-family: $main-font;
     padding: $main-padding;
@@ -16,7 +20,7 @@ a{
 }
 
 h1{
-    color: black;
+    color: map-get($map: $colors, $key:"text");
     font-size: 6rem;
 }
 
@@ -44,23 +48,8 @@ h3{
    
 }
 
-@mixin texto ($FontSize, $LineHeigh, $FontWeight, $color) {
-    font-size: $FontSize;
-    line-height: $LineHeigh;
-    font-weight: $FontWeight;
-    color: $color;
-}
-
-@mixin flex($direction){
-    display: flex;
-    flex-direction: $direction;
-    justify-content: center;
-    align-items: center;
-}
-       
-
 .text-grey{
-    color: grey;
+    color: map-get($map: $colors, $key:"text-grey");
 }
 
 .text-center{
@@ -80,34 +69,25 @@ h3{
 }
 
 .bg-violet{
-    background-color: rgba(238, 188, 247, .8)  
+    background-color: map-get($map: $colors, $key:"bg-violet");  
 }
 
 .bg-light{
-    background-color: rgb(231, 224, 213);
+    background-color: map-get($map: $colors, $key:"bg-light");
 }
 
 .bg-aqua{
-    background-color: rgba(102, 194, 193, 0.8);
+    background-color: map-get($map: $colors, $key:"bg-aqua");
 }
 
 .bgBlack{
-    color: black;
+    color: map-get($map: $colors, $key:"text");
     font-family: $main-font;
     font-size: 2rem;
     line-height: 2rem;
     font-weight: 200;
 }
 
-$colors : (
-    "nav": rgba(102, 194, 193, 0.8),
-    "body" : rgb (165, 234, 234),
-    "contact-text" : navy,
-    "text" : black,
-    "bg-violet" : rgb(190, 131,246),
-    "text-grey" : grey,
-    "bg-light" : rgb(231, 234, 213),
-    "bg-aqua" : rgba(102, 194, 193, 0.8),);
 
 
 

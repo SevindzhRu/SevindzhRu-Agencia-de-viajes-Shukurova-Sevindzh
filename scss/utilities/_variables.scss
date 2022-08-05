@@ -6,4 +6,29 @@ $main-padding: 0;
 $main-margin: 0;
 
 
+$colors : (
+    "nav": rgba(102, 194, 193, 0.8),
+    "body" : rgb (165, 234, 234),
+    "contact-text" : navy,
+    "text" : black,
+    "bg-violet" : rgb(190, 131,246),
+    "text-grey" : grey,
+    "bg-light" : rgb(231, 234, 213),
+    "bg-aqua" : rgba(102, 194, 193, 0.8),);
+
 $lang:es;
+
+@mixin texto ($FontSize, $LineHeigh, $FontWeight, $color) {
+    font-size: $FontSize;
+    line-height: $LineHeigh;
+    font-weight: $FontWeight;
+    color: $color;
+}
+
+@mixin flex($direction){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+}
+     

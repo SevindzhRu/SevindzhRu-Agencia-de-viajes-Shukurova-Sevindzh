@@ -60,9 +60,10 @@ figcaption{
     align-items: center;
     justify-content: center;
     font-size: 15px;
-}
-
-.pie-1 a img{
-    width: 2em;
-    margin: 10px;
+    a {
+        img {
+            width: 2em;
+            margin: 10px;
+        }
+    }
 }

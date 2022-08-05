@@ -1,4 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+ul {
+  list-style: none;
+}
+
+nav a img {
+  width: 10%;
+}
+
+.portada {
+  text-align: center;
+}
+.portada img {
+  width: 30%;
+}
+
 .header-nav {
   background-color: rgba(102, 194, 193, 0.8);
   padding: 6px 20px;
@@ -9,28 +24,16 @@
   justify-content: space-around;
   align-items: center;
 }
-
-ul {
-  list-style: none;
-}
-
 .header-nav ul {
   display: flex;
 }
-
-.header-nav ul li a {
+.header-nav li {
   color: black;
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
 }
-
-.header-nav ul li a:hover {
-  font-weight: 900;
-  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 121, 10) 0%, rgb(61, 223, 182) 0%, rgb(2, 195, 210) 100%, rgb(0, 212, 255) 100%);
-}
-
-.header-nav a {
+.header-nav li a {
   display: block;
   text-decoration: none;
   padding: 0.8rem;
@@ -39,17 +42,9 @@ ul {
   text-transform: uppercase;
   font-size: 1.7rem;
 }
-
-nav a img {
-  width: 10%;
-}
-
-.portada {
-  text-align: center;
-}
-
-.portada img {
-  width: 30%;
+.header-nav li:hover {
+  font-weight: 900;
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 121, 10) 0%, rgb(61, 223, 182) 0%, rgb(2, 195, 210) 100%, rgb(0, 212, 255) 100%);
 }
 
 * {
@@ -71,7 +66,7 @@ a {
 }
 
 h1 {
-  color: rgb(10, 1, 17);
+  color: black;
   font-size: 6rem;
 }
 
@@ -117,11 +112,11 @@ h3 {
 }
 
 .bg-violet {
-  background-color: rgba(238, 188, 247, 0.8);
+  background-color: rgb(190, 131, 246);
 }
 
 .bg-light {
-  background-color: rgb(231, 224, 213);
+  background-color: rgb(231, 234, 213);
 }
 
 .bg-aqua {
@@ -150,7 +145,6 @@ figure {
   text-align: center;
   justify-content: center;
 }
-
 figure img {
   min-height: 300px;
   max-height: 300px;
@@ -158,14 +152,7 @@ figure img {
   border: solid rgb(86, 138, 94) 5px;
 }
 
-.foto__brooklyn {
-  width: 50%;
-  height: 300px;
-  position: relative;
-  padding: 20px 25px;
-}
-
-.foto__coliceo {
+.foto {
   width: 50%;
   height: 300px;
   position: relative;
@@ -176,13 +163,6 @@ figure img {
   width: 400px;
   height: 100px;
   margin-left: 170px;
-}
-
-.foto__barcelona {
-  width: 50%;
-  height: 300px;
-  position: relative;
-  padding: 20px 25px;
 }
 
 .galeria-img {
@@ -199,7 +179,10 @@ figure img {
   padding: 20px 30px;
   margin: 20px auto;
   display: flex;
+  display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   align-items: center;
   justify-content: center;
 }
@@ -249,7 +232,7 @@ div.portada {
 }
 
 .contact__info {
-  color: navy;
+  color: rgb(5, 5, 75);
   font-family: "Times New Roman", Times, serif;
   text-align: center;
   font-size: 1rem;
@@ -346,7 +329,6 @@ figcaption {
   justify-content: center;
   font-size: 15px;
 }
-
 .pie-1 a img {
   width: 2em;
   margin: 10px;

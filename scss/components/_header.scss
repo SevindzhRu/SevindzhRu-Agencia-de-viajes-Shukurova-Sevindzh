@@ -1,3 +1,20 @@
+@import "../utilities/variables";
+
+ul{
+    list-style: none;
+}
+
+nav a img{
+    width: 10%;
+
+}
+.portada {
+    text-align: center;
+    img {
+        width: 30%;
+    }
+}
+
 
 .header-nav{
     background-color: rgba(102, 194, 193, 0.8);
@@ -8,44 +25,31 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}
 
-ul{
-    list-style: none;
-}
-.header-nav ul{
-    display: flex;
-}
+    ul{
+        display: flex;
+    }
 
-.header-nav ul li a{
-    color: black;
-    font-family: $main-font;
-    font-size: 1.2rem;
-    font-weight: 400;
-}
+    li{
+        color: black;
+            font-family: $main-font;
+            font-size: 1.2rem;
+            font-weight: 400;
 
-.header-nav ul li a:hover{
-    font-weight: 900;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,10,1) 0%, rgba(61,223,182,1) 0%, rgba(2,195,210,1) 100%, rgba(0,212,255,1) 100%);
-}
+            a{   display: block;
+                text-decoration: none;
+                padding: 0.8rem;
+                text-align: center;
+                color: black;
+                text-transform: uppercase;
+                font-size: 1.7rem;
 
-.header-nav a{
-    display: block;
-    text-decoration: none;
-    padding: 0.8rem;
-    text-align: center;
-    color: black;
-    text-transform: uppercase;
-    font-size: 1.7rem;
-}
+            }
 
-nav a img{
-    width: 10%;
+            &:hover {
+                font-weight: 900;
+                background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,10,1) 0%, rgba(61,223,182,1) 0%, rgba(2,195,210,1) 100%, rgba(0,212,255,1) 100%);
+            }
 
-}
-.portada {
-    text-align: center;
-}
-.portada img{
-    width: 30%;
-}
+        }
+    }

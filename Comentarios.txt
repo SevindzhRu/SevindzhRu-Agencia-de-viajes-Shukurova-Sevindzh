@@ -25,6 +25,14 @@ mapa de colores
 
 Verifique los encabezados
 
+Despues de devolicion:
+cambie iconos en Footer
+cambie texto alternativo en todas las imagenes
+aplique nesting en carpeta ../components/_header.scss y paquetes.scss
+mapa y mixin defini en variables
+aplique mixin en _footer.scss
+aplique map en _footer.scss y _reser.scss
+
 
 
 

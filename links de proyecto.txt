@@ -5,4 +5,4 @@ https://github.com/SevindzhRu/SevindzhRu-Agencia-de-viajes-Shukurova-Sevindzh.gi
 https://sevindzhru.github.io/SevindzhRu-Agencia-de-viajes-Shukurova-Sevindzh/index.html
 
 3. Servidor
-https://62f03b93c776bb668859efc3--dashing-snickerdoodle-929a18.netlify.app/index.html
+https://dashing-snickerdoodle-929a18.netlify.app/index.html

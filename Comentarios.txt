@@ -37,6 +37,8 @@ mapa y mixin defini en variables
 aplique mixin en _footer.scss
 aplique map en _footer.scss y _reser.scss
 
+EN EL ARCHIVO PAQUETES.HTML 4 ULTIMOS LINKS LLEVAN A LA PAGINA ERROR 404 
+
 
 
 
